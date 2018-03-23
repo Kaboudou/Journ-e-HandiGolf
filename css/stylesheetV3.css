@@ -1,0 +1,510 @@
+html{
+    height: 100%;
+}
+
+body{
+    
+  
+    padding-top: 5%;
+    font-family: "Yantramanav",cursive;
+    
+    background-image: url(../img/fondgolf1.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+.container{
+    padding-bottom: 2%;
+    padding-top: 6%;
+}
+header{
+    height: 150px;
+    border-width: 0px 0px 1px;
+    border-color: black;
+    
+}
+.menu{
+    font-family: "Unna",verdana,cursive;
+}
+.menu ol{
+    float: right;
+    /*padding-top: 50px;*/
+}
+/*
+.menu h1{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+*/
+.menu li {
+    /*display: inline;
+    position: static;
+    background-color: #3cbff0;
+    /*padding: 1em;
+    box-shadow: 0px 0px 2px #29d39e;
+    /*margin: 2em;*/
+    transition: all 0.5s ease; 
+    padding-left:5px;
+    padding-right:5px;
+
+}
+
+.menu a:hover{
+    color: #2edb9c !IMPORTANT;
+    font-weight: bold;
+/*    box-shadow: 0px 0px 6px #3cbff0;   */
+}
+.menu a:active{
+    color: #2edb9c !IMPORTANT;
+    font-weight: bold;
+/*    box-shadow: 0px 0px 6px #3cbff0;   */
+}
+
+
+.header{
+    background-color:#fff;
+    box-shadow: 1px 0px 1px #183258;
+}
+
+/*
+.page{
+    margin-top: 5%;
+    font-family: "Yantramanav",cursive;
+    
+}
+*/
+h1, h2, h3, h4, h5 {
+    font-family: "Unna",verdana,cursive;
+    
+}
+.article{
+    
+/*
+    display: block;
+    box-shadow: 0px 0px 6px #111111;
+*/
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    
+
+}
+
+.articles{
+
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+
+}
+.articles:first-child{
+    padding: 0
+
+}
+.articles img{
+    width: 100%;
+}
+.articles:last-child{
+/*    margin-right: 0px;*/
+   
+    display: block;
+   
+}
+.articles p{
+    display: table-row;
+}
+
+#bnv{
+    padding-bottom: 20%;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+/*
+.title h2{
+    background-color: powderblue;
+    position:relative;   
+}
+*/
+
+footer a{
+    color: #e8f2f8;
+}
+footer a:hover{
+    color: #2edb9c;
+}
+.truc{
+    color: #fff;
+    text-align: center;
+}
+.first{
+    padding-top: 2%;
+    padding-bottom: 50px;
+    background-color: #E8F2E8;
+    max-width: none;
+     box-shadow: 0px 2px 1px #BAB0B0;
+}
+.first:last-child{
+    padding-top: 2%;
+    padding-bottom: 50px;
+    background-color: #E8F2E8;
+    max-width: none;
+    box-shadow: 1px 1px 6px #183258;
+}
+
+.img-fluid{
+    max-width: 100%;
+    max-height: 720px;
+}
+
+.rounded-circle{
+    border-style: solid;
+    border-color: #5aedaa;
+    box-shadow: 0px 0px 6px #111121;
+}
+
+#conte{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 5%;
+    
+}
+#article{
+    max-width: none;
+/*    background-color: #fed11e;*/
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+/*
+#pres{
+    padding-top: 5%;
+    color: #2edb9c;
+*/
+#event{
+
+    background-color: #2edb9c;
+    text-align: center; 
+    font-size: 1.7em;
+    font-family: "Unna";
+    color: #fff;
+    margin-bottom: 30px;
+}
+#events{
+    background-color: #2edb9c;
+    text-align: center; 
+    font-size: 1.7em;
+    font-family: "Unna";
+    color: #fff;
+    margin-bottom: 30px;
+}
+.events{
+    background-color: #2edb9c;
+    text-align: center; 
+    font-size: 1.7em;
+    font-family: "Unna";
+    color: #fff;
+    margin-bottom: 30px;
+}
+#collo{
+    font-size: 1.5em;
+    font-family: 'Yantramanav';
+    padding-bottom: 2%;
+        
+}
+
+
+#inscription{
+    border-color: #2edb9c;
+    background-color: white;
+    color: #2edb9c;
+    transition: color 0.5s, background-color 0.5s;
+    font-size: 20px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+#inscription:hover{
+    border-color: #2edb9c;
+    background-color: #2edb9c;
+    color:#FFF;
+ 
+}
+.inscription{
+    border-color: #2edb9c;
+    background-color: white;
+    color: #2edb9c;
+    transition: color 0.5s, background-color 0.5s;
+    font-size: 20px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:absolute;
+    right: 80;
+    bottom: 0;
+    
+}
+.inscription:hover{
+    border-color: #2edb9c;
+    background-color: #2edb9c;
+    color:#FFF;
+ 
+}
+
+.butt{
+    border-color: #2edb9c;
+    background-color: white;
+    color: #2edb9c;
+    transition: color 0.5s, background-color 0.5s;
+    font-size: 20px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+.butt:hover{
+    border-color: #2edb9c;
+    background-color: #2edb9c;
+    color:#FFF;
+}
+.articles .butt{
+    border-color: #2edb9c;
+    background-color: white;
+    color: #2edb9c;
+    transition: color 0.5s, background-color 0.5s;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: -35px;
+    right: 20px;
+}
+.articles .butt:hover{
+    border-color: #2edb9c;
+    background-color: #2edb9c;
+    color:#FFF;
+ 
+}
+#actus{
+    padding-top: 10%;
+    }  
+
+
+
+
+
+
+
+
+
+.feedsocial{
+    background-color: #2edb9c;
+    height: 400px;
+}
+.artpage{
+    padding-bottom: 6%;
+}
+.partenaire{
+    width:50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+}
+.partenaire img{
+    width:50%;
+}
+.articles .titre{
+    font-size: 20px;
+    
+}
+.date{
+    color: #2edb9c;    
+}
+#encours{
+    background-image: url(../img/background-constru.png);
+    background-size: 75%;
+    
+}
+#encours div{
+    height: 100%;
+}
+#developpement{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+    
+.plan{
+    border-color: #2edb9c;
+    background-color: #2edb9c;
+    color: white;
+    transition: color 0.5s, background-color 0.5s;
+    font-size: 20px;
+    text-align: left;
+    border-style: solid;
+    text-decoration-style: none;
+    width: 100%;
+        
+}
+
+.cadre{
+    border-style: solid;
+    border-color: #2edb9c;
+    padding: 2%;
+    height: auto;
+    margin-top: 2%;
+/*
+    
+*/
+}
+.titre{
+    font-size: 22px;
+    color: #2edb9c;
+}
+@media screen and (max-width:920px){
+    
+   
+    #inscription{
+        border-color: #2edb9c;
+        background-color: white;
+        color: #2edb9c;
+        transition: color 0.5s, background-color 0.5s;
+        font-size: 20px;
+        border-style: solid;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+}
+    #inscription:hover{
+        border-color: #2edb9c;
+        background-color: #2edb9c;
+        color:#FFF;
+
+    }
+    .inscription{
+        border-color: #2edb9c;
+        background-color: white;
+        color: #2edb9c;
+        transition: color 0.5s, background-color 0.5s;
+        font-size: 20px;
+        border-style: solid;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+
+    }
+    .inscription:hover{
+        border-color: #2edb9c;
+        background-color: #2edb9c;
+        color:#FFF;
+
+    }
+
+    .butt{
+        border-color: #2edb9c;
+        background-color: white;
+        color: #2edb9c;
+        transition: color 0.5s, background-color 0.5s;
+        font-size: 20px;
+        border-style: solid;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative;
+
+    }
+    .butt:hover{
+        border-color: #2edb9c;
+        background-color: #2edb9c;
+        color:#FFF;
+
+    }
+    .articles .butt{
+        border-color: #2edb9c;
+        background-color: white;
+        color: #2edb9c;
+        transition: color 0.5s, background-color 0.5s;
+        font-size: 20px;
+        text-align: center;
+        border-style: solid;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+        position: relative;
+        bottom: 0;
+        right: 0;
+
+    }
+    .articles .butt:hover{
+        border-color: #2edb9c;
+        background-color: #2edb9c;
+        color:#FFF;
+
+    }  
+    body{
+            padding-top: 15%;
+            padding-left: 1%;
+            padding-right: 1%;
+    }
+}
+
+.slide{
+    padding: 0;
+}
+footer{
+    position:relative;
+    width: 100%;
+    bottom:0;
+    text-align: center;
+    background-color: black;
+    padding: inherit;
+    
+    
+}
+footer .container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.stand {
+    background-color: #2edb9c;
+    color: white;
+    font-size: 15px;
+    margin-top: 2%;
+}
+.stand p{
+    margin-bottom: 0px;
+}
+
+#cadre{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 15%;
+}
+#stand{
+    font-size: 25px;
+    color: white;
+}
+
+.planning a{
+    
+    text-decoration: none;
+}
+
+.tous{
+    background-color: #25a2ef !IMPORTANT;
+    border-color: #25a2ef !IMPORTANT;
+}

@@ -1,0 +1,149 @@
+body{
+    
+   /* padding-left: 10%;
+    padding-right: 10%;*/
+/*    background-color: #E8F2E8;*/
+    font-family: "Yantramanav",cursive;
+    
+}
+header{
+    height: 150px;
+    border-width: 1px 1px 1px;
+    border-color: black;
+}
+
+
+
+
+.menu{
+    font-family: "Unna",verdana,cursive;
+}
+.menu ol{
+    float: right;
+    /*padding-top: 50px;*/
+}
+/*
+.menu h1{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    float: left;
+}
+*/
+.menu li {
+    /*display: inline;
+    position: static;
+    background-color: #3cbff0;
+    /*padding: 1em;
+    box-shadow: 0px 0px 2px #29d39e;
+    /*margin: 2em;*/
+    transition: all 0.5s ease; 
+    padding-left:5px;
+    padding-right:5px;
+
+}
+
+.menu a:hover{
+    color: #29d39e !IMPORTANT;
+    font-weight: bold;
+/*    box-shadow: 0px 0px 6px #3cbff0;   */
+}
+
+.header{
+    background-color:#fff;
+    box-shadow: 0px 0px 3px #183258;
+}
+
+/*
+.page{
+    margin-top: 5%;
+    font-family: "Yantramanav",cursive;
+    
+}
+*/
+h1, h2, h3, h4, h5 {
+    font-family: "Unna",verdana,cursive;
+    
+}
+.article{
+    background-color: #fff;
+/*
+    display: block;
+    box-shadow: 0px 0px 6px #111111;
+*/
+    margin-left: 2%;
+    margin-right: 2%;
+    
+
+}
+/*
+.article:last-child{
+    background-color: #fff;
+    display: block;
+    box-shadow: 0px 0px 6px #111111;
+}
+*/
+
+#bnv{
+    padding-bottom: 20%;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+/*
+.title h2{
+    background-color: powderblue;
+    position:relative;   
+}
+*/
+footer, .footer{
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom:0;
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    
+}
+footer a{
+    color: #e8f2f8;
+}
+.truc{
+    color: #fff;
+    text-align: center;
+}
+.first{
+    padding-top: 2%;
+    padding-bottom: 50px;
+    background-color: #E8F2E8;
+    max-width: none;
+}
+
+.img-fluid{
+    max-width: 100%;
+    max-height: 720px;
+}
+
+.rounded-circle{
+
+    border-style: solid;
+    border-color: #5aedaa;
+
+    box-shadow: 0px 0px 6px #111121;
+}
+#articles{
+    padding-left: 10%;
+}
+#conte{
+    text-align: center;
+    font-size: 25px;
+    color: fff;
+}
+#article{
+    max-width: none;
+    background-color: #fed11e;
+    padding-bottom: 2%;
+    
+}
+
+
