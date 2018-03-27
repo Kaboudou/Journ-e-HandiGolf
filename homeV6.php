@@ -150,6 +150,39 @@ autour du thème. </p>
                     </div> 
                 </div>
             </div>
+
+
+<div class="container">
+        <div class="row">
+        <div class="col-sm-6 col-lg-2" id="events">Partenaires</div>
+        <div class="col-sm-6 col-lg-10"></div>
+            <div class="col-sm-4 col-lg-4 partenaire"><a href="https://www.ffgolf.org/"><img src="img/Logo_ffgolf_bleu.png" width="100%" alt="Logo Fédération Française de golf"></a></div>
+            <div class="col-sm-4 col-lg-4 partenaire"><a href="http://www.ceremh.org/">
+            <img src="img/logo%20ceremh-GrdFormat.jpg" width="100%" alt="Logo CEREMH">
+        </a></div>
+        <div class="col-sm-4 col-lg-4 partenaire">
+            <a href="http://www.uvsq.fr/"><img src="img/logoUvsq.png" width="100%" alt="Logo université de Saint-Quentin-en-Yvelines"></a></div>
+        <div class="col-sm-4 col-lg-4 partenaire"><a href="http://www.lisv.uvsq.fr/">
+        <img src="img/LISV.png" width="100%" alt="logo LISV">
+        </a></div>
+            <div class="col-sm-4 col-lg-4 partenaire"><a href="http://www.ddcs.paris.gouv.fr/SITE-DDCS/LA-DDCS-DE-PARIS"><img src="img/Pr%C3%A9fecture.jpg" width="100%" alt="DIRECTION DEPARTEMENTALE DE LA COHESION SOCIALE DE PARIS"></a>
+            </div>
+            <div class="col-sm-4 col-lg-4 partenaire"><a href="http://www.cdos78.fr/">
+<img src="img/CNOSF.svg.png" width="100%" alt="Logo Comité Départemental Olympique et Sportif des Yvelines">
+        </a></div>
+            <div class="col-sm-4 col-lg-4 partenaire"><a href="http://www.ville-guyancourt.fr/">
+        <img src="img/guy.png" width="100%" alt="Logo Guyancourt">
+        </a></div>
+            <div class="col-sm-4 col-lg-4 partenaire"><a href="http://www.ville-guyancourt.fr/">
+        <img src="img/guy.png" width="100%" alt="Logo Guyancourt">
+        </a></div>
+           
+            
+        
+        </div>
+
+
+</div> 
       
 <?php 
     require_once("footer.php");

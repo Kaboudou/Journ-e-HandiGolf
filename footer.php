@@ -1,37 +1,24 @@
-<!--<div class="feedsocial"></div>     -->
-<div class="container">
-        <div class="row">
-        <div class="col-sm-6 col-lg-2" id="events">Partenaires</div>
-        <div class="col-sm-6 col-lg-10"></div>
-        <div class="col-sm-4 col-lg-4 partenaire"><img src="img/Logo_ffgolf_bleu.png" width="100%"></div>
-        <div class="col-sm-4 col-lg-4 partenaire"><img src="img/logo%20ceremh-GrdFormat.jpg" width="100%"></div>
-        <div class="col-sm-4 col-lg-4 partenaire"><img src="img/Logohandigolf%20Final.jpg"  width="100%"></div>
-        <div class="col-sm-4 col-lg-4 partenaire"><img src="img/logoUvsq.png" width="100%"></div>
-        <div class="col-sm-4 col-lg-4 partenaire"><img src="img/LISV.png" width="100%"></div>
-        <div class="col-sm-4 col-lg-4 partenaire"><img src="img/Pr%C3%A9fecture.jpg" width="100%">
-            </div>
-            <div class="col-sm-4 col-lg-4 partenaire"><img src="img/logohandigolf.png" width="100%"></div><div class="col-sm-4 col-lg-4 partenaire"><img src="img/CNOSF.svg.png" width="100%"></div>
-            
-        
-        </div>
 
-
-</div> 
 <footer>
    <div class="container">
         <div class="row">
             
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <a href="Partenaire.php">
                     <p>Partenaires</p>
                 </a>
             </div>
-            <div class="col-lg-4"><a href="#">
+            <div class="col-lg-3"><a href="#">
                 <p>Mentions Légales</p></a>
             </div>
-            <div class="col-lg-4">
-                <a href="Encours.php">
+            <div class="col-lg-3">
+                <a href="contact.php">
                     <p>Contact</p>
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a href="Authentification.php">
+                    <p>Connexion</p>
                 </a>
             </div>
         </div>    

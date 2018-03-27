@@ -1,8 +1,5 @@
 <?php
-    
     require_once('header.php');
-
-
 ?>
 
 <form action="login.php" method="post" class="" style="text-align: right">

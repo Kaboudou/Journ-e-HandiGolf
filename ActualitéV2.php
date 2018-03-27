@@ -6,6 +6,7 @@
     $lesArticles = getArticles();
 ?>
 
+
 <div class="container" id="pres">
     <div class="col-sm-6 col-lg-2" id="events">Actualités</div>
             <div class="col-sm-6 col-lg-10"></div>
@@ -30,11 +31,14 @@
                     <input type="submit" class="butt" value="En Savoir Plus"> 
                     </form>
 -->
-                    <!--<button type="button" id="inscription">En Savoir Plus </button>-->  
+                   
                 </div> 
             </div>
   <?php endforeach; ?>
+    
 </div>
+
+
 
 <?php
     require_once("footer.php");
