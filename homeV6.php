@@ -56,11 +56,11 @@ autour du thème. </p>
                         </div>
                     </div>
                     <a href="inscription.php">
-                    <button type="button"  id="inscription"> INSCRIPTION</button>
+                    <button type="button"  id="inscription" alt="inscription"> INSCRIPTION</button>
                     </a> 
                     
                     <a href="evenement.php">
-                    <button type="button"  class="inscription"  >INFORMATION</button>
+                    <button type="button"  class="inscription" alt="Information"  >INFORMATION</button>
                     </a>
                     
                 </div>
