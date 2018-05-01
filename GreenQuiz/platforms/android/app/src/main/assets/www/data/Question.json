@@ -1,0 +1,227 @@
+[
+  {
+    "id": "1",
+    "Question": "Quel est le nom du seul joueur à avoir gagné 6 fois le tournoi des Masters (maîtres) ?",
+    "Proposition1": "Jack Nicklaus",
+    "Proposition2": "Tiger Woods",
+    "Proposition3": "Ben Hogan",
+    "Proposition4": "Annika Sörenstam",
+    "Reponse": "Jack Nicklaus",
+    "Explication": "Jack Nicklaus est le seul joueur à avoir gagné 6 fois le tournoi des Masters.",
+    "Image": "img/6masters.png"
+  },
+  {
+    "id": "2",
+    "Question": "Woodrow Wilson, le président américain, en période de neige utilisait des balles de couleurs…",
+    "Proposition1": "Noires",
+    "Proposition2": "Oranges",
+    "Proposition3": "Bleues",
+    "Proposition4": "Vertes",
+    "Reponse": "Noires",
+    "Explication": "Woodrow Wilson, le président américain, en période de neige utilisait des balles de couleurs noires.",
+    "Image": "img/ballecouleur.png"
+  },
+  {
+    "id": "3",
+    "Question": "Combien de balle(s) de golf se trouve sur la Lune ?",
+    "Proposition1": "Aucune",
+    "Proposition2": "Une",
+    "Proposition3": "Deux",
+    "Proposition4": "Trois",
+    "Reponse": "Deux",
+    "Explication": "Durant la mission Appollo 14, Alan Shepard est le seul astronaute à avoir joué au golf sur la Lune, il a frappé deux balles.",
+    "Image": "img/lune.png"
+  },
+
+  {
+    "id": "4",
+    "Question": "Environ combien de kilomètre un joueur parcourt-t-il à pied pour compléter un 18 trous ?",
+    "Proposition1": "4 km",
+    "Proposition2": "5,5 km",
+    "Proposition3": "6,5 km",
+    "Proposition4": "8 km",
+    "Réponse": "6,5 km",
+    "Explication": "Pour compléter un 18 trous, un joueur parcourt environ 6,5 km à pied.",
+    "Image": "img/distancepied.png"
+  },
+  {
+    "id": "5",
+    "Question": "La Ryder Cup a lieu tous les … ",
+    "Proposition1": "4 ans",
+    "Proposition2": "3 ans",
+    "Proposition3": "2 ans",
+    "Proposition4": "1 an",
+    "Reponse": "2 ans",
+    "Explication": "La Ryder Cup a lieu tous les 2 ans.",
+    "Image": "img/rydercupdate.png"
+  },
+  {
+    "id": "6",
+    "Question": "Qui est le champion de France Handigolf en 2015 ?",
+    "Proposition1": "Manuel de Los Santos",
+    "Proposition2": "Nino Ourabah",
+    "Proposition3": "Thierry Godineau",
+    "Proposition4": "Mathieu Cauneau",
+    "Reponse": "Mathieu Cauneau",
+    "Explication": "Mathieu Cauneau est le champion de France Handigolf en 2015",
+    "Image": "img/championhandi.png"
+  },
+  {
+    "id": "7",
+    "Question": "Jusqu’au milieu du 19ème siècle, les balles de golf étaient des enveloppes de cuir, remplies de …",
+    "Proposition1": "Blé",
+    "Proposition2": "Coton",
+    "Proposition3": "Plumes d’oie",
+    "Proposition4": "Terre",
+    "Reponse": "Plumes d’oie",
+    "Explication": "Jusqu’au milieu du 19ème siècle, les balles de golf étaient des enveloppes de cuir, remplies de plumes d’oie.",
+    "Image": "img/19siecle.png"
+  },
+  {
+    "id": "8",
+    "Question": "Sur le terrain un joueur peut transporter au maximum …",
+    "Proposition1": "18 clubs de golf",
+    "Proposition2": "14 clubs de golf",
+    "Proposition3": "10 clubs de golf",
+    "Proposition4": "8 clubs de golf",
+    "Reponse": "14 clubs de golf",
+    "Explication": "Sur le terrain un joueur peut transporter au maximum 14 clubs de golf.",
+    "Image": "img/clubs.png"
+  },
+  {
+    "id": "9",
+    "Question": "Quel est le nom du fauteuil roulant adapté à la pratique du golf ?",
+    "Proposition1": "Buggy/paragolfeur",
+    "Proposition2": "Benur",
+    "Proposition3": "Mobily",
+    "Proposition4": "Golfus",
+    "Reponse": "Buggy/paragolfeur",
+    "Explication": " Le nom du fauteuil roulant adapté à la pratique du golf est buggy.",
+    "Image": "img/fauteuil.png"
+
+  },
+  {
+    "id": "10",
+    "Question": "Un parcours est composé de combien de trous ?",
+    "Proposition1": "16 trous.",
+    "Proposition2": "17 trous.",
+    "Proposition3": "18 trous.",
+    "Proposition4": "19 trous.",
+    "Reponse": "18 trous.",
+    "Explication": " Un parcours est composé de 18 trous.",
+    "Image": "img/trougolf.png"
+  },
+  {
+    "id": "11",
+    "Question": "Le premier grand prix Handigolf a eu lieu en :",
+    "Proposition1": "2014",
+    "Proposition2": "2015",
+    "Proposition3": "2016",
+    "Proposition4": "2017",
+    "Reponse": "2017",
+    "Explication": "Le premier grand prix Handigolf a eu lieu en 2017.",
+    "Image": "img/1erhandi.png"
+  },
+  {
+    "id": "12",
+    "Question": "Quelle est la taille de la balle de golf ?",
+    "Proposition1": "20,18 mm",
+    "Proposition2": "42,67 mm",
+    "Proposition3": "50,50 mm",
+    "Proposition4": "52,42 mm",
+    "Reponse": "42,67 mm",
+    "Explication": " La taille d’une balle de golf est de 42,67 mm",
+    "Image": "img/taille.png"
+  },
+  {
+    "id": "13",
+    "Question": "Combien de joueur peuvent jouer ensemble au maximum sur le terrain ?",
+    "Proposition1": "4",
+    "Proposition2": "5",
+    "Proposition3": "6",
+    "Proposition4": "7",
+    "Reponse": "4",
+    "Explication": "Au maximum 4 joueur peuvent jouer ensemble sur le terrain.",
+    "Image": "img/joueurs.png"
+
+  },
+  {
+    "id": "14",
+    "Question": "Quel nom anglais porte le support en bois ou en plastique sur lequel la balle est posée ?",
+    "Proposition1": "Un tea.",
+    "Proposition2": "Un tee.",
+    "Proposition3": "Une tige.",
+    "Proposition4": "Un tia.",
+    "Reponse": "Un tee.",
+    "Explication": "Le tee est le nom anglais du support (en bois ou en plastique) sur lequel la balle est posée.",
+    "Image": "img/tee.png"
+  },
+  {
+    "id": "15",
+    "Question": "\"Le coup de longue portée donnée au départ d’un trou se nomme :",
+    "Proposition1": "Un Clive.",
+    "Proposition2": "Un Sleave.",
+    "Proposition3": "Un Draw.",
+    "Proposition4": "Un Drive.",
+    "Reponse": "Un Drive.",
+    "Explication": "Un drive correspond au coup de longue portée donnée au départ d’un trou.",
+    "Image": "img/drive.png"
+  },
+  {
+    "id": "16",
+    "Question": "La touffe de gazon enlevée par un coup de club se nomme :",
+    "Proposition1": "Une levée.",
+    "Proposition2": "Un divot.",
+    "Proposition3": "Une rupture.",
+    "Proposition4": "Une dune.",
+    "Reponse": "un divot",
+    "Explication": "La touffe de gazon enlevée par un coup de club se nomme un divot.",
+    "Image": "img/divot.png"
+  },
+  {
+    "id": "17",
+    "Question": "Les obstacles de sables existants sur le parcours se nomme :",
+    "Proposition1": "Les Bunkers.",
+    "Proposition2": "Les Bonkoeurs.",
+    "Proposition3": "Les Bounkers.",
+    "Proposition4": "Les Bunquers.",
+    "Reponse": "Les Bunkers.",
+    "Explication": "Les Bunkers.",
+    "Image": "img/sable.png"
+  },
+  {
+    "id": "18",
+    "Question": "Combien existe-il de catégories au sein du handigolf ?",
+    "Proposition1": "Neuf",
+    "Proposition2": "Sept",
+    "Proposition3": "Cinq",
+    "Proposition4": "Trois",
+    "Reponse": "Cinq",
+    "Explication": "Les catégories sont au nombre de cinq Catégorie A : Déficience au niveau des bras, Catégorie L : Déficience au niveau des jambes, Catégorie W : Joueurs jouant en fauteuil, Catégorie B : Non ou malvoyants, troubles sensoriels et mentaux, Catégorie R : Autres handicaps.",
+    "Image": "img/categorie.png"
+
+  },
+  {
+    "id": "19",
+    "Question": "Le championnat de France handigolf est en combien de tour ?",
+    "Proposition1": "Un",
+    "Proposition2": "Deux",
+    "Proposition3": "Quatre",
+    "Proposition4": "Huit",
+    "Reponse": "Deux",
+    "Explication": "Le championnat de France handigolf est en deux tours.",
+    "Image": "img/trouhandi.png"
+  },
+  {
+    "id": "20",
+    "Question": "Pour participer à une compétition handigolf, il faut être titulaire du...",
+    "Proposition1": "Golf pass",
+    "Proposition2": "Médical pass",
+    "Proposition3": "Professional pass",
+    "Proposition4": "Certif pass",
+    "Reponse": "Médical pass",
+    "Explication": "Pour participer à une compétition handigolf, il faut être titulaire du médical pass.",
+    "Image": "img/pass.png"
+  }
+
+]

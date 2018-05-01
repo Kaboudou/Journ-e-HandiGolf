@@ -1,0 +1,330 @@
+body {
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;
+    background-image:url(../img/Fond-vert.png);
+    width:100%;
+    font-family: Muli !important;
+}
+@font-face {
+    
+        font-family: Muli;
+        src: url(../data/Muli.ttf);
+    
+}
+ .app{
+    background: center / 75% no-repeat url(../img/GreenQuiz.png) ;
+    position: absolute; /* position in the center of the screen */
+    left: 50%;
+    top: 50%;
+    height: 75px; /* text area height */
+    width: 250px; /* text area width */
+    text-align: center;
+    padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+    margin: -115px 0px 0px -112px;
+}
+.chargement {
+    background: center / no-repeat url(../img/logo-phoenix.png);
+    position: absolute; /* position in the center of the screen */
+    left: 50%;
+    top: 50%;
+    height: 75px; /* text area height */
+    width: 250px; /* text area width */
+    text-align: center;
+    padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+    margin: -115px 0px 0px -112px;
+}
+.commencer {
+    background: none;
+    position: absolute; /* position in the center of the screen */
+    left: 50%;
+    top: 50%;
+    height: 75px; /* text area height */
+    width: 250px; /* text area width */
+    text-align: center;
+    padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+    margin: -115px 0px 0px -112px;
+}
+.quiz {
+    background: none;
+    position: absolute; /* position in the center of the screen */
+    left: 45%;
+    height: 70%; /* text area height */
+    width: 300px; /* text area width */
+    text-align: center;
+    padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+    margin: -115px 0px 0px -112px;
+}
+.proposition {
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: outset;
+    border-top-style: none;
+    border-left-style: none;
+    border-color: #C0C0C0;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 0px 3px #EEEEEE;
+    font-size: 22px;
+    color: #32EFAD;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position: left center;
+        padding: 75px 0px 75px 170px; /* padding-top + padding-bottom + text area = image height */
+        margin: -90px 0px 0px -198px; /* offset vertical: half of image height */
+        /* offset horizontal: half of image width and text area width */
+    }
+}
+@media screen and (min-width: 768px ) and (max-width: 1280px) {
+    .app {
+        background: center / 60% no-repeat url(../img/GreenQuiz.png);
+        position: absolute; /* position in the center of the screen */
+        left: 40%;
+        top: 40%;
+        height: 250px; /* text area height */
+        width: 400px; /* text area width */
+        text-align: center;
+        padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+        margin: -115px 0px 0px -112px;
+    }
+    .chargement {
+        background: center / 100% no-repeat url(../img/logo-phoenix.png);
+        position: absolute; /* position in the center of the screen */
+        left: 34%;
+        top: 40%;
+        height: 300px; /* text area height */
+        width: 600px; /* text area width */
+        text-align: center;
+        padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+        margin: -115px 0px 0px -112px;
+    }
+    .quiz {
+        background: none;
+        position: absolute; /* position in the center of the screen */
+        left: 21%;
+        top: 20%;
+        right: 10%;
+        height: 70%; /* text area height */
+        width: 60%; /* text area width */
+        text-align: center;
+        padding: 20px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+        margin: -115px 0px 0px 0px;
+    }
+    .proposition {
+        background-color: #fff;
+        border-radius: 10px;
+        border-style: outset;
+        border-top-style: none;
+        border-left-style: none;
+        border-color: #C0C0C0;
+        height: 75px !important;
+        width: 400px !important;
+        text-align: center;
+        box-shadow: 0px 0px 3px #EEEEEE;
+        font-size: 22px;
+        color: #32EFAD !important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+    @media screen and (min-width: 400px ) and (max-width: 768px) {
+        .app {
+            background: center / 60% no-repeat url(../img/GreenQuiz.png);
+            position: absolute; /* position in the center of the screen */
+            left: 40%;
+            top: 40%;
+            height: 250px; /* text area height */
+            width: 400px; /* text area width */
+            text-align: center;
+            padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+            margin: -115px 0px 0px -112px;
+        }
+
+        .commencer {
+            
+            position: absolute; /* position in the center of the screen */
+            left: 21%;
+            top: 50%;
+            right: 10%;
+            height: 40%; /* text area height */
+            width: 60%; /* text area width */
+            text-align: center;
+            padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+            margin: -115px 0px 0px 0px;
+        }
+
+        .chargement {
+            background: center / 100% no-repeat url(../img/logo-phoenix.png);
+            position: absolute; /* position in the center of the screen */
+            left: 40%;
+            top: 50%;
+            height: 200px; /* text area height */
+            width: 400px; /* text area width */
+            text-align: center;
+            padding: 180px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+            margin: -115px 0px 0px -112px;
+        }
+
+        .quiz {
+            background: none;
+            position: absolute; /* position in the center of the screen */
+            left: 21%;
+            top: 20%;
+            right: 10%;
+            height: 70%; /* text area height */
+            width: 60%; /* text area width */
+            text-align: center;
+            padding: 20px 0px 0px 0px; /* image height is 200px (bottom 20px are overlapped with text) */
+            margin: -115px 0px 0px 0px;
+        }
+
+        .button {
+            background-color: #fff;
+            border-radius: 10px;
+            border-style: outset;
+            border-top-style: none;
+            border-left-style: none;
+            border-color: #C0C0C0;
+            height: 30px;
+            text-align: center;
+            box-shadow: 0px 0px 3px #EEEEEE;
+        }
+
+        .proposition {
+            background-color: #fff;
+            border-radius: 10px;
+            border-style: outset;
+            border-top-style: none;
+            border-left-style: none;
+            border-color: #C0C0C0;
+            height: 50px !important;
+            width: 300px !important;
+            text-align: center;
+            box-shadow: 0px 0px 3px #EEEEEE;
+            font-size: 22px;
+            color: #32EFAD;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .vrai {
+            background-color: #32EFAD;
+            color: #fff;
+        }
+
+        .faux {
+            background-color: #F36464;
+            color: white;
+        }
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0px;
+        overflow: visible;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .event {
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        color: #FFFFFF;
+        font-size: 12px;
+        margin: 0px 30px;
+        padding: 2px 0px;
+    }
+
+        .event.listening {
+            background-color: #333333;
+            display: block;
+        }
+
+        .event.received {
+            background-color: #4B946A;
+            display: none;
+        }
+
+    @keyframes fade {
+        from {
+            opacity: 1.0;
+        }
+
+        50% {
+            opacity: 0.4;
+        }
+
+        to {
+            opacity: 1.0;
+        }
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: 1.0;
+        }
+
+        50% {
+            opacity: 0.4;
+        }
+
+        to {
+            opacity: 1.0;
+        }
+    }
+
+    .blink {
+        padding-top: 150px;
+        animation: fade 3000ms infinite;
+        -webkit-animation: fade 3000ms infinite;
+    }
+
+    .start {
+        font-size: 28px;
+        color: white;
+    }
+
+    .button {
+        background-color: #fff;
+        border-radius: 10px;
+        border-style: outset;
+        border-top-style: none;
+        border-left-style: none;
+        border-color: #C0C0C0;
+        height: 50px;
+        text-align: center;
+        box-shadow: 0px 0px 3px #EEEEEE;
+    }
+
+        .button a {
+            padding-top: 50%;
+        }
+
+.vrai {
+    color: white;
+    font-size: 22px;
+    background-image: url(../img/Fond-vert.png);
+}
+
+.faux {
+    color: white;
+    font-size: 22px;
+    background-image: url("../img/fond-rouge.png");
+}
+
+    h3 {
+        color: white;
+        font-size: 22px;
+    }
+    .result{
+        text-align:center;
+        padding-top:50%;
+    }
+    .popup{
+        width:100%;
+    }

@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html  ng-app="MyDataService">
+<head>
+
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <link rel="stylesheet" href="framework7/dist/css/framework7.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+    <title></title>
+</head>
+<body ng-controller="Question">
+    <div class="app quiz">
+        <div class="view view-main">
+        <div class="page-content" ng-init="getAllQuestion()">
+            <div class="content" ng-repeat="question in questions | limitTo:1 ">
+                <div>
+                    <img src="{{ question.Image }}" width="100%" />
+                    <h3>{{ question.Question }}</h3>
+                    <a href="#" ng-click="selectreponse(question.Proposition1,question.Reponse,question.Explication)"  class=" link popup-open  proposition " data-popup=".popup-reponse">{{ question.Proposition1 }}</a><br />
+                    <a href="#" ng-click="selectreponse(question.Proposition2,question.Reponse,question.Explication)" class="link popup-open proposition" data-popup=".popup-reponse">{{ question.Proposition2 }}</a><br />
+                    <a href="#" ng-click="selectreponse(question.Proposition3,question.Reponse,question.Explication)" class="link popup-open proposition" data-popup=".popup-reponse">{{ question.Proposition3 }}</a><br />
+                    <a href="#" ng-click="selectreponse(question.Proposition4,question.Reponse,question.Explication)" class="link popup-open proposition" data-popup=".popup-reponse">{{ question.Proposition4 }}</a><br />
+                </div>
+                <a href="#" ng-click="removeFirst()"><img src="img/boutonblanc.png" width="10%" /></a>
+                <h3 ng-if="checked">{{ question.Explication }}</h3>
+            
+            <div class="popup popup-reponse popup-tablet-fullscreen {{ Class }} result" >
+                <div class="block">
+                    <p>{{ result }}</p>
+                    <!-- Close Popup -->
+                    <div><p>{{ question.Explication }}</p></div>
+                    <p><a class="link popup-close" ng-click="removeFirst()" href="#">Close popup</a></p>
+
+                </div>
+            </div>
+                </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    
+    <script type="text/javascript" src="framework7/dist/js/framework7.min.js"></script>
+    <script type="text/javascript" src="scripts/angular.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+    <script type="text/javascript" src="scripts/Question.js"></script>
+
+
+</body>
+</html>

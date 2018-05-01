@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-networking-multipeer",
+        "scope": null,
+        "escapedName": "cordova-plugin-networking-multipeer",
+        "name": "cordova-plugin-networking-multipeer",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\kadim\\Documents\\Cours\\METWEB\\App\\hello"
+    ]
+  ],
+  "_from": "cordova-plugin-networking-multipeer@latest",
+  "_id": "cordova-plugin-networking-multipeer@1.1.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-networking-multipeer",
+  "_nodeVersion": "4.2.6",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-networking-multipeer-1.1.0.tgz_1475818956857_0.7216661400161684"
+  },
+  "_npmUser": {
+    "name": "bugnano",
+    "email": "franco@bugnano.it"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-networking-multipeer",
+    "scope": null,
+    "escapedName": "cordova-plugin-networking-multipeer",
+    "name": "cordova-plugin-networking-multipeer",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-networking-multipeer/-/cordova-plugin-networking-multipeer-1.1.0.tgz",
+  "_shasum": "b85353b32d7754034cf6b6cb7cb8ad43c92d29f1",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-networking-multipeer",
+  "_where": "C:\\Users\\kadim\\Documents\\Cours\\METWEB\\App\\hello",
+  "author": {
+    "name": "Franco Bugnano"
+  },
+  "cordova": {
+    "id": "cordova-plugin-networking-multipeer",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Multipeer Connectivity Plugin for Cordova",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b85353b32d7754034cf6b6cb7cb8ad43c92d29f1",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-networking-multipeer/-/cordova-plugin-networking-multipeer-1.1.0.tgz"
+  },
+  "homepage": "https://bitbucket.org/bugnano/cordova-plugin-networking-multipeer#readme",
+  "keywords": [
+    "cordova",
+    "multipeer",
+    "network",
+    "networking",
+    "connectivity",
+    "mp",
+    "mc",
+    "mpc",
+    "socket",
+    "client",
+    "server",
+    "multi",
+    "peer",
+    "p2p",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "maintainers": [
+    {
+      "name": "bugnano",
+      "email": "franco@bugnano.it"
+    }
+  ],
+  "name": "cordova-plugin-networking-multipeer",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "hg",
+    "url": "git+https://bitbucket.org/bugnano/cordova-plugin-networking-multipeer.git"
+  },
+  "scripts": {},
+  "version": "1.1.0"
+}

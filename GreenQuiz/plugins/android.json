@@ -1,0 +1,34 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.TestApp.hello"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.TestApp.hello"
+    },
+    "cordova-plugin-chrome-apps-sockets-tcpserver": {
+      "PACKAGE_NAME": "com.TestApp.hello"
+    },
+    "cz.blocshop.socketsforcordova": {
+      "PACKAGE_NAME": "com.TestApp.hello"
+    },
+    "cordova-plugin-networking-multipeer": {
+      "PACKAGE_NAME": "com.TestApp.hello"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-chrome-apps-common": {
+      "PACKAGE_NAME": "com.TestApp.hello"
+    },
+    "cordova-plugin-chrome-apps-sockets-tcp": {
+      "PACKAGE_NAME": "com.TestApp.hello"
+    }
+  }
+}
